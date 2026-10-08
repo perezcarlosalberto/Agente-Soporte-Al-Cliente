@@ -13,7 +13,7 @@ Google Forms  ──►  Google Sheets  ──►  agente_soporte.py  ──► 
  (entrada)        (respuestas A-C)       (el agente)          (análisis)    (resultados D-F)
 ```
 
-Cada `INTERVALO_MINUTOS` minutos (15 por defecto) el agente:
+Cada `INTERVALO_MINUTOS` minutos (1 minuto en este proyecto; la guía sugiere 15) el agente:
 
 1. **Percibe:** lee todas las filas de la hoja de cálculo.
 2. **Filtra:** omite las filas que ya tienen `SI` en la columna F (su "memoria").
@@ -94,7 +94,7 @@ Salida de ejemplo:
 ```
 ============================================================
  Agente de Soporte iniciado
- Revisará 'Respuestas de Quejas (Base de Datos)' cada 15 minutos.
+ Revisará 'Respuestas de Quejas (Base de Datos)' cada 1 minutos.
  Presiona Ctrl+C para detenerlo.
 ============================================================
 

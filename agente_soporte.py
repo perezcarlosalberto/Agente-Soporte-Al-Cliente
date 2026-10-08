@@ -55,7 +55,7 @@ except ImportError:
 MODELO_GEMINI = "gemini-3.1-flash-lite"   # Gemini 3.1 Flash Lite
 
 # Cada cuántos minutos el agente revisa si hay nuevas quejas
-INTERVALO_MINUTOS = 15
+INTERVALO_MINUTOS = 1
 
 # Índices de columnas del Sheet (gspread cuenta desde 1: A=1, B=2, ...)
 COL_NOMBRE = 2          # B - Tu Nombre
